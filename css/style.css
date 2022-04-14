@@ -1,0 +1,177 @@
+/*-Обнулення Сайту-*/
+*{
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,*::before,*::after{
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+/*------------------------*/
+
+body{
+   max-height: 1441px;
+}
+header{
+   display: flex;
+}
+
+.logo{
+   font-size: 40px;
+   font-family: "Lato";
+   font-weight: 800;
+   color: #575A60;
+   margin: 24px 0 0 102px;
+}
+.nav_header{
+   display: flex;
+   margin-left: 526px;
+}
+.nav_inner{
+   font-size: 20px;
+   font-family: "Lato";
+   margin-left: 40px;
+   margin-top: 38px;
+}
+.language_choice{
+   font-size: 20px;
+   font-family: "Lato";
+   margin-left: 80px;
+   margin-top: 35px;
+}
+.page1img{
+   display: block;
+   background: url(../img/Page1.jpg);
+   width: 1340px;
+   height: 933px;
+   margin: 19px 0 0 102px;
+}
+.text1_page1{
+   display: block;
+   position: relative;
+   padding: 234px 141px 676px 633px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 20px;
+   font-weight: 400;
+}
+.linepage1{
+   padding-top: 11px;
+}
+.text2_page1{
+   font-size: 64px;
+   font-family: 'Lato';
+   font-weight: 250;
+}
+.boldtext{
+   font-weight: 300;
+}
+.vertical_txt_inst{
+   display: block;
+   position: relative;
+   left: -690px;
+   top: -90px;
+   writing-mode: vertical-rl;
+   transform: scale(-1);
+   font-family: 'Lato';
+   font-size: 20px;
+   font-weight: 300;
+   margin-bottom: 40px;
+}
+.vertical_home{
+   display: block;
+   position: relative;
+   top: -480px;
+   left: -130px;
+   writing-mode: vertical-rl;
+   transform: scale(-1);
+   font-size: 128px;
+   font-family: 'Lato';
+   font-weight: 700;
+   color: rgba(69, 69, 69, 0.04);
+}
+.design_page1{
+   display: block;
+   position: relative;
+   left: 320px;
+   top: -320px;
+   font-size: 128px;
+   font-family: 'Lato';
+   font-weight: 700;
+   color: rgba(255, 255, 255, 0);
+   -webkit-text-stroke: 1px rgba(69, 69, 69, 0.2);
+}
+.vertical_txt_inst1{
+   display: block;
+   position: relative;
+   left: -690px;
+   top: -300px;
+   writing-mode: vertical-rl;
+   transform: scale(-1);
+   font-family: 'Lato';
+   font-size: 20px;
+   font-weight: 300;
+   margin-bottom: 40px;
+   color: rgba(69, 69, 69, 0.41);;
+}
+.page2img{
+   display: block;
+   background: url(../img/Page\ 2.jpg);
+   width: 1441px;
+   height: 540px;
+}
+.page2img_2{
+   display: flex;
+   position: relative;
+   top: -198px;
+   margin-left: 732px;
+}
+.page2text1{
+   display: flex;
+   position: relative;
+   left: 100px;
+   top: 161px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 40px;
+   font-weight: 700;
+   color: rgba(69, 69, 69, 1);
+}
+.vector12{
+   display: block;
+   position: relative;
+   left: 310px;
+   top: 141px;
+}
+.page2text2{
+   display: block;
+   position: relative;
+   left: 100px;
+   top: 180px;
+   font-family: 'Lato';
+   font-size: 18px;
+   font-weight: 300;
+   margin-top: 24px;
+}
