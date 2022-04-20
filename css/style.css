@@ -155,6 +155,7 @@ body{
    height: 540px;
    background-image: url(../img/Page\ 2.jpg);
 }
+
 .pg2block1{
    display: block;
 }
@@ -273,6 +274,7 @@ body{
    display: block;
    margin-bottom: 121px;
 }
+
 .block5row1{
    display: flex;
    margin: 0px auto;
@@ -308,6 +310,7 @@ body{
 .row_icons{
    width: 36px;
    height: 36px;
+   margin-right: 10px;
 }
 /*Page 5*/
 
@@ -424,4 +427,40 @@ body{
    position: relative;
    top: 44px;
    left: 20px;
+}
+.h3textrowf{
+   font-family: 'Lato';
+   font-size: 32px;
+   font-weight: 300;
+   color: rgba(69, 69, 69, 1);
+}
+.text_rowf1{margin-left: 115px;} .text_rowf2{margin-left: 48px;} 
+.text_rowf3{margin-left: 48px;}
+.row_icons_foot{
+   width: 36px;
+   height: 36px;
+   margin-right: 10px;}
+
+/*Media*/
+
+@media (max-width: 768px) {
+   .block5{
+      display: flex;
+   }
+   .h2block1{font-size: 96px;margin-bottom: 100px;}
+      .h3textrow1{font-size: 76px;width: 600px;}
+      .h2lines{margin-top: 50px;}
+   .block5row1{display: block;}
+      .text_row1{margin-left: 72px;}
+      .text_row2{margin-top: 70px;margin-left: 64px;}
+      .text_row3{margin-top: 70px;margin-left: 64px;}
+      .text_row4{margin-top: 70px;margin-left: 64px;}
+      
+      .text_p1{font-size: 34px;width: 500px;line-height: 50px;}
+   .block5row2{display: block;margin-top: 0px}
+      .text_row5{margin-left: 10px}
+      .text_row6{margin-top: 70px;margin-left: 10px}
+      .text_row7{margin-top: 70px;margin-left: 10px}
+      .text_row8{margin-top: 70px;margin-left: 10px}
+      .row_icons{ width: 76px;height: 76px;margin-right: 10px;}
 }
