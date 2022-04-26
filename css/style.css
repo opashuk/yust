@@ -459,11 +459,12 @@ body{
    .foot_list_media{display: none;}
    .foot_end_media{display: none;}
    .burger{display: none;}
+   .block6mobile{display: none;}
 /*Media*/
 
-@media (max-width: 320px) {
-   body{max-width: 100%;margin: 0px auto;}
-   html{max-width: 320px;}
+@media (max-width: 480px) {
+   body{width: 100%;margin: 0px auto;}
+   html{width: 100%;}
    /*header*/
    .block1{display: flex; width: 320px;height: 94px;}
    .logo{font-size: 24px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 41px 0 0px 20px;}
@@ -493,7 +494,7 @@ body{
    .pg3text3{display: block;font-size: 14px;margin-left: 20px;color: rgba(69, 69, 69, 1)}.page3phone{font-size: 16px;}
    .pg3text4{display: block;font-size: 14px;margin-left: 20px;color: rgba(69, 69, 69, 1)}.page3email{font-size: 16px;}
    /*info_menu*/
-   .block5{display: flex;width: 320px;}
+   .block5{display: flex;width: 320px;margin: 0px auto;}
    .h2block1{font-size: 20px;margin-bottom: 33px;margin-top: 48px;}
       .h3textrow1{font-size: 18px;width: 132px;}
       .h2lines{width: 70px;margin: 10px 8px 0 8px;}
@@ -510,6 +511,13 @@ body{
       .text_row7{margin-top: 10px;margin-left: 20px}
       .text_row8{margin-top: 10px;margin-left: 20px}
       .row_icons{ width: 24px;height: 24px;margin-right: 8px;}
+      /*UnderFooter*/
+      .block6mobile{background-image: url(../img/block6mobile3.jpg);opacity: 0.9;}
+      .block6mobile{background-image: url(../img/block6mobile2.png);opacity: 0.9;}
+      .block6mobile{background-image: url(../img/block6mobile.png);opacity: 0.9;}
+      .block6mobile{display: block;margin: 0px auto; text-align: center; width: 320px;height: 240px;background-image: url(../img/block6img.png);margin-top: 60px;}
+      .numbers_mob{font-size: 32px;font-family: 'Lato';font-weight: 500;color: rgba(255, 255, 255, 1);padding-top: 82px;word-spacing: 33px;}
+      .words_mob{font-size: 16px;font-family: 'Lato';font-weight: 300;color: rgba(255, 255, 255, 1);padding-top: 4px;word-spacing: 27px;}
       /*Burger*/
       #menu__toggle {opacity: 0;}
         #menu__toggle:checked ~ .menu__btn > span {transform: rotate(45deg);}
@@ -527,9 +535,9 @@ body{
        .menu__item {display: block;padding: 12px 24px;color: #333;font-family: 'Roboto', sans-serif;font-size: 20px;font-weight: 600;text-decoration: none;transition-duration: .25s;}
        .menu__item:hover {background-color: #bac2c6;}
       /*Footer*/
-      .block5fot{display: none;}
+      .block5fot{display: none;height: 155px;}
       .block_footer{display: block;width: 320px;}
-      .icons_foot{display: flex;margin-left: 90px;margin-top: -90px;}
+      .icons_foot{display: flex;margin-left: 90px;margin-top: 32px;}
       .icons_foot_media{display: flex;width: 24px;height: 24px;margin-left: 16px;}
       .foot_list_media{display: flex;margin-left: 16px;font-size: 14px;font-family: 'Lato';font-weight: 300;color: rgba(172, 172, 172, 1);margin-top: 16px;}
       .foot_end_media{display: flex;justify-content: center;margin-top: 16px;}
