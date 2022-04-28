@@ -368,7 +368,7 @@ body{
 .numbers{
    font-size: 64px;
    font-family: 'Lato';
-   font-weight: 500;
+   font-weight: 550;
    line-height: 76px;
    color: rgba(255, 255, 255, 1);
 }
@@ -408,12 +408,13 @@ body{
    font-weight: 300;
    margin-left: 387px;
    width: 247px;
+   height: 65px;
 }
 .text_f1{
    font-family: 'Lato';
    font-size: 18px;
    font-weight: 300;
-   margin-top: 20px;
+   margin-top: 15px;
    line-height: 32px;
    color: rgba(0, 0, 0, 0.53);
 }
@@ -430,27 +431,13 @@ body{
    margin-top: 0px;
    margin-left: 418px;
 }
-.logo2{
-   font-size: 40px;
-   font-family: "Lato";
-   font-weight: 800;
-   color: rgba(87, 90, 96, 1);
-}
+.logo2{font-size: 40px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);}
 .foot_inner{position: relative;bottom: 8px;right: 8px;   color: rgba(0, 0, 0, 0.53);}
-.h3textrowf{
-   font-family: 'Lato';
-   font-size: 32px;
-   font-weight: 300;
-   color: rgba(0, 0, 0, 0.53);
-   margin-top: -40px;
-}
+.h3textrowf{font-family: 'Lato';font-size: 24px;font-weight: 300;color: rgba(0, 0, 0, 0.53);margin-top: -30px;}
 .text_rowf2{margin-left: 0px;} 
 .text_rowf3{margin-left: 100px;}
 .text_rowf3f{margin-left: 100px;position: relative;left: 130px;}
-.row_icons_foot{
-   width: 36px;
-   height: 36px;
-   margin-right: 10px;}
+.row_icons_foot{width: 28px;height: 28px;margin-right: 10px;}
 
    .icons_foot{display: none;}
    .icons_foot_media{display: none;}
@@ -610,7 +597,7 @@ body{
       .block6mobile{background-image: url(../img/block6mobile2.png);opacity: 0.9;}
       .block6mobile{background-image: url(../img/block6mobile.png);opacity: 0.9;}
       .block6mobile{display: block;margin: 0px auto; text-align: center; width: 320px;height: 240px;background-image: url(../img/block6img.png);margin-top: 60px;}
-      .numbers_mob{font-size: 32px;font-family: 'Lato';font-weight: 500;color: rgba(255, 255, 255, 1);padding-top: 82px;word-spacing: 33px;}
+      .numbers_mob{font-size: 32px;font-family: 'Lato';font-weight: 600;color: rgba(255, 255, 255, 1);padding-top: 82px;word-spacing: 33px;}
       .words_mob{font-size: 16px;font-family: 'Lato';font-weight: 300;color: rgba(255, 255, 255, 1);padding-top: 4px;word-spacing: 27px;}
       /*Burger*/
       #menu__toggle {opacity: 0;}
