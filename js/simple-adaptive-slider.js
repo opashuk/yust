@@ -502,10 +502,16 @@ class ItcSimpleSlider {
   moveTo(index, useTransition) {
     this._moveTo(index, useTransition);
   }
-
+  
 }
 document.addEventListener('DOMContentLoaded', () => {
   // инициализация слайдера
+  new ItcSimpleSlider('.itcss1441', {
+    loop: true,
+    autoplay: false,
+    interval: 5000,
+    swipe: true,
+  });
   new ItcSimpleSlider('.itcss480', {
     loop: true,
     autoplay: false,
