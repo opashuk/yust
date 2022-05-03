@@ -514,6 +514,12 @@ document.addEventListener('DOMContentLoaded', () => {
     interval: 5000,
     swipe: true,
   });
+  const slider = new ItcSimpleSlider('.itcss1441');
+  // назначим обработчик при нажатии на кнопку .btn-next
+  document.querySelector('.btn-next').onclick = () => {
+    // перейдём к следующему слайду
+    slider.next();
+  }
   
   new ItcSimpleSlider('.itcss480', {
     loop: true,
@@ -527,16 +533,6 @@ document.addEventListener('DOMContentLoaded', () => {
     interval: 5000,
     swipe: true,
   });
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-  // инициализация слайдера
-  const slider = new ItcSimpleSlider('.itcss1441');
-  // назначим обработчик при нажатии на кнопку .btn-next
-  document.querySelector('.btn-next').onclick = () => {
-    // перейдём к следующему слайду
-    slider.next();
-  }
 });
 
 
