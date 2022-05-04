@@ -162,7 +162,26 @@ body{
    max-width: 1440px;
    max-height: 1024px;
    margin: 0 auto;
+}
+
+  .itcss__wrapper {
+   position: relative;
   }
+
+  .btn-wrapper {
+    
+     width: 336px;
+     height: 420px ;
+     position: absolute;
+     z-index: 10;
+     top: 526px;
+     right: 189px;
+  }
+.btn-next {
+   width: 336px;
+   height: 420px ; 
+   opacity: 0;
+}
 
 .page3phone{
    font-family: 'Lato';

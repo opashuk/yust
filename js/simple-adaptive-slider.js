@@ -505,7 +505,6 @@ class ItcSimpleSlider {
   
 }
 
-
 document.addEventListener('DOMContentLoaded', () => {
   // инициализация слайдера
   new ItcSimpleSlider('.itcss1441', {
@@ -514,11 +513,11 @@ document.addEventListener('DOMContentLoaded', () => {
     interval: 5000,
     swipe: true,
   });
-  const slider = new ItcSimpleSlider('.itcss1441');
+  const slider1 = new ItcSimpleSlider('.itcss1441');
   // назначим обработчик при нажатии на кнопку .btn-next
   document.querySelector('.btn-next').onclick = () => {
     // перейдём к следующему слайду
-    slider.next();
+    slider1.next();
   }
   
   new ItcSimpleSlider('.itcss480', {
@@ -534,6 +533,4 @@ document.addEventListener('DOMContentLoaded', () => {
     swipe: true,
   });
 });
-
-
 
