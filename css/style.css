@@ -187,6 +187,10 @@ margin-top: 90px;
    opacity: 0;
 }
 
+.itcss1920 {
+   display: none;
+}
+
 
 
 .page3phone{
@@ -529,14 +533,16 @@ margin-top: 90px;
       .pss2-big_margin {
       margin-top: 142px;
       }
+
       .smal__2 {
          margin-left: 20px;
         }
       
-      .itcss1920 {
+      .itcss1920{
          max-width: 1920px;
          max-height: 1080px;
          margin: 0 auto;
+         display: block;
       }
       
         .itcss__wrapper {
