@@ -522,7 +522,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   new ItcSimpleSlider('.itcss1920', {
     loop: true,
-    autoplay:false,
+    autoplay:true,
     interval: 5000,
     swipe: true,
   });
