@@ -253,8 +253,8 @@ body{
 .text_fot_line{font-family: 'Lato';font-size: 18px;font-weight: 300;margin-left: 387px;width: 247px;}
 .text_f1{font-family: 'Lato';font-size: 18px;font-weight: 300;margin-top: 10px;line-height: 32px;color: rgba(0, 0, 0, 0.53);}
 
-.callus{width: 161px;margin-left: 70px;}
-.email{width: 184px;margin-left: 0px;}
+.callus{width: 161px;position: relative; left: 100px;}
+.email{width: 184px;position: relative; left: 50px;}
 .fot_line{
    margin-top: 0px;
    margin-left: 418px;
@@ -264,7 +264,7 @@ body{
 .h3textrowf{font-family: 'Lato';font-size: 32px;font-weight: 300;color: rgba(0, 0, 0, 0.53);margin-top: -30px;}
 .text_rowf2{margin-left: 0px;} 
 .text_rowf3{margin-left: 100px;}
-.text_rowf3f{margin-left: 100px;position: relative;left: 130px;}
+.text_rowf3f{margin-left: 100px;position: relative;left: 70px;}
 .row_icons_foot{
    width: 36px;
    height: 36px;
@@ -506,14 +506,14 @@ body{
       /*Page3 1920px*/
       .block4{display: flex;max-width: 1920px;float: right; width: 100%; margin: 0px auto;max-height: 680px;height: 100%; background-image: url(../img/page3img2_1920px.png);}
       .pg3block1{background-image: url(../img/page3img1_1920px.png);width: 50%;height: 680px;position: relative;}
-      .pg3block2{width: 50%;}
+      .pg3block2{width: 50%;margin-top: 40px;}
       .pg3text1{margin: 108px 0 0 92%;font-size: 20px;font-family: 'Lato';font-weight: 300;color: rgba(69, 69, 69, 1);}
       .pg3line{float: right;margin-right: 3px;}
       .pg3line_media{display: none;}
-      .pg3text2{font-family: 'Lato';font-size: 20px;word-spacing: 6px;font-weight: 300;width: 580px;margin: 36px 0 0 180px;line-height: 27px;color: rgba(0, 0, 0, 1);}
-      .pg3text3{margin: 24px 0 0 180px;font-family: 'Lato';font-size: 18px;font-weight: 300;word-spacing: 8px;}
+      .pg3text2{font-family: 'Lato';font-size: 20px;word-spacing: 6px;font-weight: 300;width: 600px;margin: 36px 0 0 170px;line-height: 27px;color: rgba(0, 0, 0, 1);}
+      .pg3text3{margin: 24px 0 0 170px;font-family: 'Lato';font-size: 18px;font-weight: 300;word-spacing: 8px;}
       .page3phone{font-family: 'Lato';font-size: 20px;font-weight: 600;padding-right: 16px;color: rgba(69, 69, 69, 1);}
-      .pg3text4{margin: 10px 0 0 180px;font-family: 'Lato';font-size: 18px;font-weight: 300;}
+      .pg3text4{margin: 10px 0 0 170px;font-family: 'Lato';font-size: 18px;font-weight: 300;}
       .page3email{font-family: 'Lato';word-spacing: 8px;font-size: 20px;font-weight: 600;padding-right: 16px;color: rgba(69, 69, 69, 1);}
       .pg3text_media{display: none;}
        /*InfoMenu 1920px*/
@@ -533,10 +533,10 @@ body{
          line-height: 27px;color: black;width: 90%;word-spacing: 5px;line-height: 140%;}
       .text_p1media{display: none;font-size: 18px;font-family: "Lato";font-weight: 300;
          margin-top: 16px;line-height: 27px;color: black;width: 13%;}
-      .row_icons{width: 48px;height: 48px;margin-right: 0.5%;}
+      .row_icons{width: 48px;height: 48px;margin-right: 1.5%;}
        /*UnderFoot 1920px*/
       .block6{display: flex;max-width: 1920px;margin: 0px auto;height: 1009px;background-image: url(../img/underfoot1920.png);}
-      .statistic{position: relative;top: 294px;left: 27%;}
+      .statistic{position: relative;top: 294px;left: 27%;height: 809px;}
       .pg5ln1{margin-top: 80px;margin-left: 72px;}
       .pg5ln2{margin-top: 80px;margin-left: 200px;}
       .pg5_vert1{writing-mode: vertical-rl;transform: scale(-1);font-size: 18px;font-family: 'Lato';
@@ -560,10 +560,10 @@ body{
       .fot_line{margin-top: 0px;margin-left: 69%;}
       .logo2{font-size: 48px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);}
       .foot_inner{position: relative;bottom: 8px;right: 8px;   color: rgba(0, 0, 0, 0.53);}
-      .h3textrowf{font-family: 'Lato';font-size: 44px;font-weight: 500;color: rgba(0, 0, 0, 0.53);margin-top: -40px;}
+      .h3textrowf{font-family: 'Lato';font-size: 44px;font-weight: 500;color: rgba(0, 0, 0, 0.53);margin-top: -30px;}
       .text_rowf2{margin-left: 0px;} 
       .text_rowf3{margin-left: 99px;}
-      .text_rowf3f{margin-left: 19%;position: relative;left: 6%;}
+      .text_rowf3f{margin-left: 19%;position: relative;left: 4%;}
       .row_icons_foot{width: 48px;height: 48px;margin-right: 10px;}
    }
    @media (min-width: 1441px) and (max-width: 1919px){
