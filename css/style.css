@@ -554,12 +554,13 @@ margin-top: 90px;
            height: 493px ;
            position: absolute;
            z-index: 10;
-           bottom: 0px;
+           top: 587px;
            right: 248px;
+           
         }
-      .btn-next {
+      .btn-next1 {
          width: 435px;
-         height: 600px ;
+         height: 493px ;
          opacity: 0;
       }
 

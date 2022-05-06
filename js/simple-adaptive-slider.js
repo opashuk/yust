@@ -522,7 +522,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   new ItcSimpleSlider('.itcss1920', {
     loop: true,
-    autoplay:true,
+    autoplay:false,
     interval: 5000,
     swipe: true,
   });
@@ -545,7 +545,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const slider2 = new ItcSimpleSlider('.itcss1920');
 // назначим обработчик при нажатии на кнопку .btn-next
-document.querySelector('.btn-next').onclick = () => {
+document.querySelector('.btn-next1').onclick = () => {
   // перейдём к следующему слайду
 slider2.next();
 }
