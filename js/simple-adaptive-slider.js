@@ -522,13 +522,13 @@ document.addEventListener('DOMContentLoaded', () => {
   
   new ItcSimpleSlider('.itcss480', {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     interval: 5000,
     swipe: true,
   });
   new ItcSimpleSlider('.itcss360', {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     interval: 5000,
     swipe: true,
   });
