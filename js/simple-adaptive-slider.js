@@ -509,7 +509,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // инициализация слайдера
   new ItcSimpleSlider('.itcss1441', {
     loop: true,
-    autoplay: true,
+    autoplay: false,
     interval: 5000,
     swipe: true,
   });
@@ -519,6 +519,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // перейдём к следующему слайду
     slider1.next();
   }
+  
   
   new ItcSimpleSlider('.itcss480', {
     loop: true,

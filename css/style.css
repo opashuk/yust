@@ -94,7 +94,7 @@ body{
    font-size: 18px;
    font-weight: 300;
 }
-/* slider */
+/* slider 1440 */
 
 .container {
    display: flex;
@@ -147,15 +147,19 @@ body{
   font-family: "Lato";
   font-weight: 300;
   color: rgba(69, 69, 69, 1);
-  margin-top: 28px;
+  margin-top: 24px;
   line-height: 27px;
 
 }
 .pictures__slider-small {
    margin-top: 64px;
 }
+
+.pss2-big_margin {
+margin-top: 90px;
+}
 .smal__2 {
-   margin-left: 36px;
+   margin-left: 32px;
   }
 
 .itcss1441 {
@@ -171,7 +175,7 @@ body{
   .btn-wrapper {
     
      width: 336px;
-     height: 420px ;
+     height: 426px ;
      position: absolute;
      z-index: 10;
      top: 526px;
@@ -179,9 +183,12 @@ body{
   }
 .btn-next {
    width: 336px;
-   height: 420px ; 
+   height: 426px ; 
    opacity: 0;
 }
+
+/* slider 1920 */
+
 
 .page3phone{
    font-family: 'Lato';
@@ -461,6 +468,7 @@ body{
    @media (min-width: 1441px) {
       body{max-width: 1920px;width: 100%; margin: 0px auto;}
       /*Header 1920px*/
+      .itcss1441 {display: none}
       .block1{display: flex;max-width: 1920px;margin: 0px auto;}
       .logo{font-size: 40px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 42px 0 26px 5%;}
       .nav_header{display: flex;margin-left: 44%;}
