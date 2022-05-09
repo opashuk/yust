@@ -96,7 +96,7 @@ body{
    font-size: 18px;
    font-weight: 300;
 }
-/* slider 1440 */
+/* slider */
 
 .container {
    display: flex;
@@ -149,19 +149,15 @@ body{
   font-family: "Lato";
   font-weight: 300;
   color: rgba(69, 69, 69, 1);
-  margin-top: 24px;
+  margin-top: 28px;
   line-height: 27px;
 
 }
 .pictures__slider-small {
    margin-top: 64px;
 }
-
-.pss2-big_margin {
-margin-top: 90px;
-}
 .smal__2 {
-   margin-left: 32px;
+   margin-left: 36px;
   }
 
 .itcss1441 {
@@ -177,23 +173,17 @@ margin-top: 90px;
   .btn-wrapper {
     
      width: 336px;
-     height: 426px ;
+     height: 420px ;
      position: absolute;
      z-index: 10;
-     top: 522px;
+     top: 526px;
      right: 189px;
   }
 .btn-next {
    width: 336px;
-   height: 426px ; 
+   height: 420px ; 
    opacity: 0;
 }
-
-.itcss1920 {
-   display: none;
-}
-
-
 
 .page3phone{
    font-family: 'Lato';
@@ -479,100 +469,6 @@ margin-top: 90px;
    @media (min-width: 1441px) {
       body{max-width: 1920px;width: 100%; margin: 0px auto;}
       /*Header 1920px*/
-      /* slider 1920 */
-      .container {
-         display: flex;
-         justify-content: space-between;
-         margin: 0 auto;
-         max-width: 1920px;
-         max-height: 1080px;
-         background-color: #FFFFFF;
-      
-      }
-      
-      .two_pictures{
-         display: flex;
-         position: relative;
-      }
-      
-      
-      .bg-img {
-        margin-top: 35px ;
-        position: absolute;
-      }
-      .big1 {
-        margin-top: 35px ;
-        margin-left: 98px;
-      }
-      
-      .heder_inner_slider1 {
-         display: flex;
-         justify-content:space-between;
-         margin-top: 35px ;
-      }
-      .text01 {
-        font-size: 64px;
-        font-family: "Lato";
-        font-weight: 700;
-        color: rgba(69, 69, 69, 0.13);
-      }
-      .inner_main-text__slider {
-        font-size: 64px;
-        line-height: 76.8px;
-        font-family: "Lato";
-        font-weight: 700;
-        color: rgba(69, 69, 69, 1);
-        margin-top: 40px;
-        flex-direction: column;
-      }
-      .oftop__text-slider {
-        font-size: 20px;
-        font-family: "Lato";
-        font-weight: 300;
-        color: rgba(69, 69, 69, 1);
-        margin-top: 32px;
-        line-height: 30px;
-      
-      }
-      .pictures__slider-small {
-         margin-top: 112px;
-      }
-      
-      .pss2-big_margin {
-      margin-top: 142px;
-      }
-
-      .smal__2 {
-         margin-left: 20px;
-        }
-      
-      .itcss1920{
-         max-width: 1920px;
-         max-height: 1080px;
-         margin: 0 auto;
-         display: block;
-      }
-      
-        .itcss__wrapper {
-         position: relative;
-        }
-      
-        .btn-wrapper {
-           width: 435px;
-           height: 493px ;
-           position: absolute;
-           z-index: 10;
-           top: 587px;
-           right: 248px;
-           
-        }
-      .btn-next1 {
-         width: 435px;
-         height: 493px ;
-         opacity: 0;
-      }
-
-      .itcss1441 {display: none}
       .block1{display: flex;max-width: 1920px;margin: 0px auto;}
       .logo{font-size: 40px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 42px 0 26px 5%;}
       .nav_header{display: flex;margin-left: 48%;}
