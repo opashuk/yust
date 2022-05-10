@@ -103,6 +103,7 @@ body{
    justify-content: space-between;
    margin: 0 auto;
    max-width: 1441px;
+
    background-color: #FFFFFF;
 
 }
@@ -183,6 +184,10 @@ body{
    width: 336px;
    height: 420px ; 
    opacity: 0;
+}
+
+.itcss1920 {
+   display: none;
 }
 
 .page3phone{
@@ -475,6 +480,102 @@ body{
    @media (min-width: 1441px) {
       body{max-width: 1920px;width: 100%; margin: 0px auto;}
       /*Header 1920px*/
+       /* slider 1920 */
+       .container {
+         display: flex;
+         justify-content: space-between;
+         margin: 0 auto;
+         max-width: 1920px;
+         height: 1080px;
+         background-color: #FFFFFF;
+      }
+      
+      .two_pictures{
+         display: flex;
+         position: relative;
+      }
+      
+
+      .bg-img {
+        margin-top: 35px ;
+        position: absolute;
+      }
+      .big1 {
+        margin-top: 35px ;
+        margin-left: 98px;
+      }
+      
+      .heder_inner_slider1 {
+         display: flex;
+         justify-content:space-between;
+         margin-top: 35px ;
+      }
+      .text01 {
+        font-size: 64px;
+        font-family: "Lato";
+        font-weight: 700;
+        color: rgba(69, 69, 69, 0.13);
+      }
+      .inner_main-text__slider {
+        font-size: 64px;
+        line-height: 76.8px;
+        font-family: "Lato";
+        font-weight: 700;
+        color: rgba(69, 69, 69, 1);
+        margin-top: 40px;
+        flex-direction: column;
+      }
+      .oftop__text-slider {
+        font-size: 20px;
+        font-family: "Lato";
+        font-weight: 300;
+        color: rgba(69, 69, 69, 1);
+        margin-top: 32px;
+        line-height: 30px;
+      
+      }
+      .pictures__slider-small {
+         margin-top: 112px;
+      }
+      
+      .pss2-big_margin {
+      margin-top: 142px;
+      }
+
+      .smal__2 {
+         margin-left: 20px;
+        }
+      
+      .itcss1920{
+         display: block;
+         max-width: 1920px;
+         max-height: 1080px;
+         margin: 0 auto;
+
+      }
+      
+        .itcss__wrapper {
+         position: relative;
+         height: 1080px;
+         width: 1920px;
+        }
+      
+        .btn-wrapper {
+           width: 435px;
+           height: 493px ;
+           position: absolute;
+           z-index: 10;
+           top: 587px;
+           right: 248px;
+           
+        }
+      .btn-next1 {
+         width: 435px;
+         height: 493px ;
+         opacity: 0;
+      }
+      .itcss1441 {display: none}
+
       .block1{display: flex;max-width: 1920px;margin: 0px auto;}
       .logo{font-size: 40px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 42px 0 26px 5%;}
       .nav_header{display: flex;margin-left: 48%;}
@@ -524,10 +625,10 @@ body{
       .pg3text_media{display: none;}
        /*InfoMenu 1920px*/
       .h2block1{font-size: 64px;font-family: 'Georgia';font-weight: 700;color: rgba(69, 69, 69, 1);text-align: center;
-      margin: 0px auto;margin-top: -270px;margin-bottom: 65px;max-width: 1920px;}
+      margin: 0px auto;margin-top: -270px;margin-bottom: 65px;max-width: 1920px;position: relative;margin-top: 800px;}
       .h2lines{margin-top: 35px;margin-left: 25px;margin-right: 25px;}
    
-      .block5{display: block;margin-bottom: 121px;}
+      .block5{display: block;margin-bottom: 121px;position: relative;}
       .block5row1{display: flex;margin: 0px auto;max-width: 1920px;}
       .block5row2{display: flex;margin: 0px auto;max-width: 1920px;margin-top: 88px;}
       .text_row1{margin-left: 5%;} .text_row2{margin-left: 6%;} 
@@ -544,7 +645,7 @@ body{
          margin-top: 16px;line-height: 27px;color: black;width: 13%;}
       .row_icons{width: 48px;height: 48px;margin-right: 1.5%;}
        /*UnderFoot 1920px*/
-      .block6{display: flex;max-width: 1920px;margin: 0px auto;height: 1009px;background-image: url(../img/underfoot1920.png);}
+      .block6{display: flex;max-width: 1920px;margin: 0px auto;height: 1009px;background-image: url(../img/underfoot1920.png);position: relative;}
       .statistic{position: relative;top: 294px;left: 27%;height: 809px;}
       .pg5ln1{display: none;}
       .pg5ln2{display: none;}
