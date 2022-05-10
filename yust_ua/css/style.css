@@ -605,6 +605,8 @@ body{
    .pg3text2_media480{display: block;line-height: 150%; margin: 8px 20px 0;font-size: 15px;font-weight: 300;font-family: 'Lato';color: rgba(69, 69, 69, 1);}
    .pg3text3{display: block;margin-top: 30px; font-size: 14px;margin-left: 20px;color: rgba(69, 69, 69, 1)}.page3phone{font-size: 16px;}
    .pg3text4{display: block;font-size: 14px;margin-left: 20px;color: rgba(69, 69, 69, 1)}.page3email{font-size: 16px;}
+   .itcss1441 {display: none}
+   
    /*slider480*/
    .itcss480{display: block;width: 480px;height: 600px;margin-top: 36px;}
    .itcss360{display: none;}
@@ -693,6 +695,7 @@ body{
    .pg3line{display: none;}.pg3text2{display: none;}
    .pg3text3{display: block;font-size: 14px;margin-left: 20px;color: rgba(69, 69, 69, 1)}.page3phone{font-size: 16px;}
    .pg3text4{display: block;font-size: 14px;margin-left: 20px;color: rgba(69, 69, 69, 1)}.page3email{font-size: 16px;}
+   .itcss1441 {display: none}
    /*Slider 360*/
    .itcss360{display: block;width: 320px;height: 503px;margin-top: 24px;}
    /*info_menu*/
