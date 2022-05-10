@@ -586,7 +586,7 @@ body{
    .list_scrl{display: none;}.vert_home{display: none;}.pg1txt1{display: none;}.line1pg1{display: none;}
    .design_txt{display: none;}.pg1txt2{display: none;}.pg1txt3{display: none;}.vert_lft_txt{display: none;}
    .pg1txt1px480{display: flex;margin-left: 165px;padding-top: 85px;font-size: 14px;color: rgba(69, 69, 69, 1);font-family: 'Lato';font-weight: 300;font-style: italic;}
-   .pg1txt2px480{display: flex;background-image: url(../img/page2txt480.png);width: 321px;height: 70px;margin-left: 130px;margin-top: 8px;}
+   .pg1txt2px480{display: flex;background-image: url(../img/page2txt480.png);width: 337px;height: 70px;margin-left: 130px;margin-top: 8px;}
    /*Page 2 (Media480)*/
    .block3{display: block; background-image: url(../img/480bgpage2.jpg); width: 480px; height: 692px;}
    .pg2block1{display: block;max-width: 480px;height: 332px;margin: 0px auto;position: relative;top: 56px;}
@@ -679,14 +679,14 @@ body{
    .ukr_page1_txt{display: none;}
    /*Page 2 (Media)*/
    .block3{display: block; background-image: url(../img/Page2BGmedia.jpg); width: 320px; height: 558px;}
-   .pg2block1{display: block;max-width: 320px;height: 318px;margin: 0px auto;position: relative;top: 56px;}
-   .pg2block2{display: block; width: 320px;height: 240px;background-image: url(../img/Page2IMG1media.jpg);margin-left: 0px;}
-   .pg2text1{display: block;font-size: 24px;margin-left: 20px;margin-top: 0px;}.line1pg2{width: 95px; margin-top: 12px;}
+   .pg2block1{display: block;max-width: 320px;height: 318px;margin: 0px auto;position: relative;top: 26px;}
+   .pg2block2{display: block; width: 320px;height: 240px;background-image: url(../img/Page2IMG1media.jpg);}
+   .pg2text1{display: block;font-size: 24px;margin-left: 20px;margin-top: -30px;}.line1pg2{width: 95px; margin-top: 12px;}
    .pg2text2{display: block;margin-left: 20px;font-size: 13px;width: 280px;line-height: 150%;color: rgba(69, 69, 69, 1)}
    .pg2text3{display: block;margin-left: 20px;font-size: 13px;width: 280px;line-height: 150%;color: rgba(69, 69, 69, 1)}
    /*Page 3 (Media)*/
    .block4{display: block; background-image: url(../img/Page3BGmedia.png);width: 320px;height: 620px;}
-   .pg3block2{display: block;max-width: 320px;height: 380px;}
+   .pg3block2{display: block;max-width: 320px;height: 380px;margin-top: 25px;position: relative;top: -50px;}
    .pg3block1{display: block;max-width: 320px;height: 240px; margin: 0px auto;background-image: url(../img/Page3IMGmedia.png);position: relative;top: 390px;}
    .pg3text1{display: block;margin: -180px 0 0 267px;}.pg3line_media{display: flex;margin-left: 110px;}
    .pg3text_media{display: block;color: rgba(69, 69, 69, 1); width: 280px;margin-left: 20px;margin-top: 24px;font-family: 'Lato';font-size: 14px;font-weight: 300;line-height: 150%;}
