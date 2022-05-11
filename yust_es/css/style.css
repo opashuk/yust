@@ -711,11 +711,11 @@ body{
       .block5{display: block;margin-bottom: 121px;}
       .block5row1{display: flex;margin: 0px auto;max-width: 1920px;}
       .block5row2{display: flex;margin: 0px auto;max-width: 1920px;margin-top: 88px;}
-      .text_row1{margin-left: 5%;} .text_row2{margin-left: 2%;} 
-      .text_row3{margin-left:4%;} .text_row4{margin-left: 4%;}
-      .text_row5{margin-left: 5%;width: 35%;} .text_row6{margin-left: 2%;} 
-      .text_row7{margin-left: 4%;width: 40%;} .text_row8{margin-left: 3%;}
-      .h3textrow1{font-family: 'Lato';font-size: 48px;font-weight: 300;color: rgba(69, 69, 69, 1);}
+      .text_row1{margin-left: 5%;} .text_row2{margin-left: 0%;} 
+      .text_row3{margin-left:2%;} .text_row4{margin-left: 4%;}
+      .text_row5{margin-left: 5%;width: 40%;} .text_row6{margin-left: 5.4%;width: 35%;} 
+      .text_row7{margin-left: 7.5%;width: 40%;} .text_row8{margin-left: 1.5%;}
+      .h3textrow1{font-family: 'Lato';font-size: 40px;font-weight: 300;color: rgba(69, 69, 69, 1);}
       .text_p1{font-size: 24px;font-family: "Lato";font-weight: 300;margin-top: 16px;
          line-height: 27px;color: black;width: 90%;}
       .text_p1media{display: none;font-size: 18px;font-family: "Lato";font-weight: 300;
@@ -730,8 +730,8 @@ body{
          font-weight: 400;color: rgba(255, 255, 255, 1);position: relative;left: 30.7%;bottom: 390px;}
       .stat_text{display: flex;position: relative;left: 160px;bottom: 190px;}
       .numbers{font-size: 64px;font-family: 'Lato';font-weight: 500;line-height: 76px;color: rgba(255, 255, 255, 1);}
-      .txt_und_numb{font-size: 32px;font-family: 'Lato';font-weight: 300;color: rgba(255, 255, 255, 1);margin-left: -30px;}
-      .numb2{margin-left: 40px;} .numb3{margin-left: 60px;}
+      .txt_und_numb{font-size: 32px;font-family: 'Lato';font-weight: 300;color: rgba(255, 255, 255, 1);margin-left: -10px;}
+      .numb2{margin-left: 50px;} .numb3{margin-left: 60px;}
       .txt_numb{margin-left: 50px;}
    
       .pg5_txt_inblock{font-size: 18px;font-family: 'Lato';font-weight: 400;color: white;
