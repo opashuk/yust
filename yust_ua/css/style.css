@@ -374,7 +374,7 @@ body{
    color: rgba(69, 69, 69, 1);
    text-align: center;
    margin: 0px auto;
-   margin-top: 120px;
+   margin-top: 20px;
    margin-bottom: 65px;
    max-width: 1441px;
 }
@@ -573,7 +573,7 @@ font-family: 'montserrat', light;font-weight: 300;}
    .pg1txt1px480{display: none;}.pg1txt2px480{display: none;}
    .pg2text2480{display: none;}.pg2text3480{display: none;}
    .pg3text_media480{display: none;}.pg3text2_media480{display: none;}
-   .itcss480{display: none;}.itcss360{display: none;}
+   .itcss480{display: none;}.itcss360{display: none;}      .pg5ln1920{display: none;}
    /*Media480*/
 @media (max-width: 480px) {
    body{width: 100%;margin: 0px auto;}
@@ -664,7 +664,7 @@ font-family: 'montserrat', light;font-weight: 300;}
       .foot_list_media{display: flex; margin-left: 33px;font-size: 12px;font-family: 'montserrat', light;font-weight: 300;color: rgba(172, 172, 172, 1);margin-top: 16px;}
       .foot_end_media{display: flex;justify-content: center;margin-top: 16px;padding-bottom: 20px;}
       /*BLOCK AT THE MOMENT*/
-      .block6{display: none;}
+      .block6{display: none;}      .pg5ln1920{display: none;}
    }
    /*Media320*/
 @media (max-width: 320px) {
@@ -756,6 +756,7 @@ font-family: 'montserrat', light;font-weight: 300;}
       .pg1txt2px480{display: none;}.pg3text2_media480{display: none;}
       .icons_foot480{display:none}.infomenu480{display: none;}
       .icons_foot_media480{display:none}.itcss480{display: none;}
+      .pg5ln1920{display: none;}
    }
    @media (min-width: 1441px) {
       body{max-width: 1920px;width: 100%; margin: 0px auto;}
@@ -877,7 +878,7 @@ font-family: 'montserrat', light;font-weight: 300;}
       left: 46%;width: 820px;}
       .line1pg1{margin: 16px 16px 0 0;width: 81px;}
       .pg1txt2{font-size: 80px;font-family: 'montserrat', thin;font-weight: 100;margin: -250px 0 0 46%;color: rgba(69, 69, 69, 1);word-spacing: 8px;}
-      .pg1txt3{font-size: 90px;font-family: 'montserrat', thin;font-weight: 100;margin: 4px 0 0 46%;color: rgba(69, 69, 69, 1);word-spacing: 8px;}
+      .pg1txt3{width: 960px; font-size: 90px;font-family: 'montserrat', thin;font-weight: 100;margin: 4px 0 0 46%;color: rgba(69, 69, 69, 1);word-spacing: 8px;}
       .boldtext{font-weight: 300;color: rgba(69, 69, 69, 1);}
       .design_txt{font-size: 150px;font-family: 'montserrat', bold;font-weight: 700;color: rgba(255, 255, 255, 0);-webkit-text-stroke: 1px rgba(69, 69, 69, 0.2);
       position: relative;left: 67%;top: 90px;width: 370px;}
@@ -907,7 +908,7 @@ font-family: 'montserrat', light;font-weight: 300;}
       .pg3text_media{display: none;}
        /*InfoMenu 1920px*/
       .h2block1{font-size: 64px;font-family: 'Georgia';font-weight: 700;color: rgba(69, 69, 69, 1);text-align: center;
-      margin: 0px auto;margin-top: 120px;margin-bottom: 65px;max-width: 1920px;}
+      margin: 0px auto;margin-top: -150px;margin-bottom: 85px;max-width: 1920px;}
       .h2lines{margin-top: 35px;margin-left: 25px;margin-right: 25px;}
    
       .block5{display: block;margin-bottom: 121px;}
@@ -924,30 +925,31 @@ font-family: 'montserrat', light;font-weight: 300;}
          margin-top: 16px;line-height: 27px;color: black;width: 13%;}
       .row_icons{width: 48px;height: 48px;margin-right: 0.5%;}
        /*UnderFoot 1920px*/
+       .pg5ln1920{display: block;position: relative;left: -5%;}
       .block6{display: flex;max-width: 1920px;margin: 0px auto;height: 1009px;background-image: url(../../img/underfoot1920.png);}
       .statistic{position: relative;top: 294px;left: 27%;}
-      .pg5ln1{margin-top: 80px;margin-left: 72px;}
-      .pg5ln2{margin-top: 80px;margin-left: 200px;}
-      .pg5_vert1{writing-mode: vertical-rl;transform: scale(-1);font-size: 18px;font-family: 'Lato';
-         font-weight: 400;color: rgba(255, 255, 255, 1);position: relative;left: 30.7%;bottom: 390px;}
+      .statistic{position: relative;top: 294px;left: 27%;height: 940px;}
+      .pg5ln1{display: none;}
+      .pg5ln2{display: none;}
+      .pg5_vert1{writing-mode: vertical-rl;transform: scale(-1);font-size: 24px;font-family: 'Lato';
+         font-weight: 400;color: rgba(255, 255, 255, 1);position: relative;left: 24.5%;bottom: 640px;}
       .stat_text{display: flex;position: relative;left: 160px;bottom: 190px;}
-      .numbers{font-size: 64px;font-family: 'Lato';font-weight: 500;line-height: 76px;color: rgba(255, 255, 255, 1);}
-      .txt_und_numb{font-size: 32px;font-family: 'montserrat', light;font-weight: 300;color: rgba(255, 255, 255, 1);}
-      .numb2{margin-left: 50px;} .numb3{margin-left: 60px;}
-      .txt_numb{margin-left: 42px;}
-   
-      .pg5_txt_inblock{font-size: 18px;font-family: 'Lato';font-weight: 400;color: white;
-      position: relative;top: 600px;left: 23.8%;height: 22px;}
+      .numbers{font-size: 96px;font-family: 'Lato';font-weight: 600;line-height: 76px;color: rgba(255, 255, 255, 1);position: relative;top: -85px;left: -125px;}
+      .txt_und_numb{font-size: 44px;font-family: 'Lato';font-weight: 275;color: rgba(255, 255, 255, 1);margin-left: -120px;margin-top: -65px;}
+      .numb2{margin-left: 175px;} .numb3{margin-left: 200px;}
+      .txt_numb{margin-left: 50px;}
+      .pg5_txt_inblock{font-size: 24px;font-family: 'Lato';font-weight: 400;color: white;
+      position: relative;top: 687px;left: 20.4%;height: 22px;}
       /*Footer 1920px*/
       .block_footer{display: block;margin: 0px auto;max-width: 1920px;}
    
       .block5fot{display: flex;margin-left: 7%;margin-top: 80px;}
-      .text_fot_line{font-family: 'montserrat', light;font-size: 18px;font-weight: 300;margin-left: 60%;width: 364px;}
+      .text_fot_line{font-family: 'montserrat', light;font-size: 18px;font-weight: 300;margin-left: 64%;width: 364px;margin-top: 10px;}
       .text_f1{font-family: 'montserrat', light;font-size: 24px;font-weight: 300;margin-top: 20px;line-height: 32px;color: rgba(0, 0, 0, 0.53);}
    
       .callus{width: 225px;margin-left: 3.3%;}
       .email{width: 223px;margin-left: 0px;}
-      .fot_line{margin-top: 0px;margin-left: 69%;}
+      .fot_line{margin-top: 5px;margin-left: 72%;}
       .logo2{font-size: 48px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);}
       .foot_inner{position: relative;bottom: 8px;right: 8px;   color: rgba(0, 0, 0, 0.53);font-family: 'montserrat', light;font-weight: 300;}
       .h3textrowf{width: 225px;font-family: 'Lato';font-size: 32px;font-weight: 300;color: rgba(0, 0, 0, 0.53);margin-top: -20px;}
