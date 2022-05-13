@@ -421,6 +421,7 @@ body{
    font-size: 18px;
    font-weight: 300;
    margin-left: 387px;
+   margin-top: 9px;
    width: 247px;
 }
 .text_f1{
@@ -441,7 +442,7 @@ body{
    margin-left: 0px;
 }
 .fot_line{
-   margin-top: 0px;
+   margin-top: 7px;
    margin-left: 418px;
 }
 .logo2{
@@ -463,7 +464,7 @@ body{
 }
 .text_rowf2{margin-left: 0px;} 
 .text_rowf3{margin-left: 100px;}
-.text_rowf3f{margin-left: 100px;position: relative;left: 130px;}
+.text_rowf3f{margin-left: 100px;position: relative;left: 130px;margin-top: -20px;}
 .row_icons_foot{
    width: 32px;
    height: 32px;
@@ -555,7 +556,7 @@ body{
        .menu__btn > span::after {display: block;position: absolute;width: 100%;height: 2px;background-color: #616161;transition-duration: .25s;}
        .menu__btn > span::before {content: '';top: -8px;}
        .menu__btn > span::after {content: '';top: 8px;}
-       .menu__box {display: block;position: fixed;visibility: hidden;top: 0;left: -100%;width: 100%;height: 350px;margin: 0;padding: 80px 0;list-style: none;background-color: #ECEFF1;
+       .menu__box {display: block;position: fixed;visibility: hidden;top: 0;left: -100%;width: 100%;height: 450px;margin: 0;padding: 80px 0;list-style: none;background-color: #ECEFF1;
          box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);transition-duration: .25s;}
        .menu__item {display: block;padding: 12px 24px;color: #333;font-family: 'Roboto', sans-serif;font-size: 20px;font-weight: 600;text-decoration: none;transition-duration: .25s;}
        .menu__item:hover {background-color: #bac2c6;}
@@ -646,7 +647,7 @@ body{
        .menu__btn > span::after {content: '';top: 8px;}
        .menu__box {display: block;position: fixed;visibility: hidden;top: 0;left: -100%;width: 100%;height: 350px;margin: 0;padding: 80px 0;list-style: none;background-color: #ECEFF1;
          box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);transition-duration: .25s;}
-       .menu__item {display: block;padding: 12px 24px;color: #333;font-family: 'Roboto', sans-serif;font-size: 20px;font-weight: 600;text-decoration: none;transition-duration: .25s;}
+       .menu__item {display: block;padding: 5px 24px;color: #333;font-family: 'Roboto', sans-serif;font-size: 20px;font-weight: 600;text-decoration: none;transition-duration: .25s;}
        .menu__item:hover {background-color: #bac2c6;}
       /*Footer*/
       .block5fot{display: none;height: 155px;}
