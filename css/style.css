@@ -96,6 +96,14 @@ body{
    font-size: 18px;
    font-weight: 300;
 }
+/* slider-swiper 1440*/
+.swiper1440 {
+   width: 1440px;
+   height: 1024px;
+ }
+
+
+
 /* slider */
 
 .container {
@@ -145,6 +153,10 @@ body{
   margin-top: 40px;
   flex-direction: column;
 }
+
+
+
+
 .oftop__text-slider {
   font-size: 18px;
   font-family: "Lato";
