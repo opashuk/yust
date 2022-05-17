@@ -266,15 +266,14 @@ body{
 }
 .pg3text_media{display: none;}
 
-/* slider */
+/* slider 1440*/
 
 .container {
    display: flex;
-   justify-content: space-between;
    margin: 0 auto;
    max-width: 1441px;
-
    background-color: #FFFFFF;
+   justify-content: space-between;
 
 }
 
@@ -294,6 +293,7 @@ body{
   margin-left: 100px;
   margin-bottom: 76px;
 }
+
 
 .heder_inner_slider1 {
    display: flex;
@@ -315,6 +315,26 @@ body{
   margin-top: 40px;
   flex-direction: column;
 }
+
+.ua-main__text-1440 {
+   margin-top: 40px;
+   font-size: 40px;
+   line-height: 48px;
+   font-family: 'Montserrat';
+   font-weight: 700;
+   line-height: 120%;
+}
+.ua-of-Top__text-1440 {
+   font-size: 16px;
+   line-height: 25px;
+   font-family: 'Montserrat';
+   font-weight: 300;
+   line-height: 160%;
+   margin-top: 24px;
+}
+
+
+
 .oftop__text-slider {
   font-size: 18px;
   font-family: "Lato";
@@ -325,17 +345,18 @@ body{
 
 }
 .pictures__slider-small {
-   margin-top: 64px;
+   margin-top: 88px;
 }
 .smal__2 {
-   margin-left: 36px;
+   margin-left: 32px;
   }
 
-.itcss1441 {
+/*.itcss1441 {
    max-width: 1440px;
    max-height: 1024px;
    margin: 0 auto;
 }
+
 
   .itcss__wrapper {
    position: relative;
@@ -355,16 +376,10 @@ body{
    height: 420px ; 
    opacity: 0;
 }
-
-.itcss1920 {
+*/
+.swiper1920 {
    display: none;
 }
-
-
-
-
-
-
 
 /*Page 4*/
 .h2block1{
@@ -766,101 +781,125 @@ font-family: 'montserrat', light;font-weight: 300;margin-top: -20px;}
       /*Header 1920px*/
 
              /* slider 1920 */
-             .container {
-               display: flex;
-               justify-content: space-between;
-               margin: 0 auto;
-               max-width: 1920px;
-               height: 1080px;
-               background-color: #FFFFFF;
-            }
-            
-            .two_pictures{
-               display: flex;
-               position: relative;
-            }
-            
-      
-            .bg-img {
-              margin-top: 35px ;
-              position: absolute;
-            }
-            .big1 {
-              margin-top: 35px ;
-              margin-left: 98px;
-            }
-            
-            .heder_inner_slider1 {
-               display: flex;
-               justify-content:space-between;
-               margin-top: 35px ;
-            }
-            .text01 {
-              font-size: 64px;
-              font-family: "Lato";
-              font-weight: 700;
-              color: rgba(69, 69, 69, 0.13);
-            }
-            .inner_main-text__slider {
-              font-size: 64px;
-              line-height: 76.8px;
-              font-family: "Lato";
-              font-weight: 700;
-              color: rgba(69, 69, 69, 1);
-              margin-top: 40px;
-              flex-direction: column;
-            }
-            .oftop__text-slider {
-              font-size: 20px;
-              font-family: "Lato";
-              font-weight: 300;
-              color: rgba(69, 69, 69, 1);
-              margin-top: 32px;
-              line-height: 30px;
-            
-            }
-            .pictures__slider-small {
-               margin-top: 112px;
-            }
-            
-            .pss2-big_margin {
-            margin-top: 142px;
-            }
-      
-            .smal__2 {
-               margin-left: 20px;
-              }
-            
-            .itcss1920{
-               display: block;
-               max-width: 1920px;
-               max-height: 1080px;
-               margin: 0 auto;
-               margin-bottom: 300px;
-      
-            }
-            
-              .itcss__wrapper {
-               position: relative;
-               height: 1080px;
-               width: 1920px;
-              }
-            
-              .btn-wrapper {
-                 width: 435px;
-                 height: 493px ;
-                 position: absolute;
-                 z-index: 10;
-                 top: 587px;
-                 right: 248px;
-                 
-              }
-            .btn-next1 {
-               width: 435px;
-               height: 493px ;
-               opacity: 0;
-            }
-            .itcss1441 {display: none}
+             /* slider 1440*/
+
+.container {
+   display: flex;
+   margin: 0 auto;
+   max-width: 1920px;
+   background-color: #FFFFFF;
+   justify-content: space-between;
+
+}
+
+.two_pictures{
+   display: flex;
+   position: relative;
+   margin-top: 35px ;
+
+}
+
+
+.bg-img {
+   margin-top: 0px;
+  margin-left: 0px;
+  position: absolute;
+}
+.big1 {
+   margin-top: 0px;
+  margin-left: 100px;
+
+}
+
+
+.heder_inner_slider1 {
+   display: flex;
+   justify-content:space-between;
+   margin-top: 35px ;
+}
+.text01 {
+  font-size: 64px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: rgba(69, 69, 69, 0.13);
+}
+
+/*
+.inner_main-text__slider {
+  font-size: 48px;
+  line-height: 58px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: rgba(69, 69, 69, 1);
+  margin-top: 40px;
+  flex-direction: column;
+}
+*/
+.ua-main__text-1440 {
+   margin-top: 40px;
+   font-size: 56px;
+   line-height: 48px;
+   font-family: 'Montserrat';
+   font-weight: 700;
+   line-height: 120%;
+}
+.ua-of-Top__text-1440 {
+   font-size: 20px;
+   line-height: 25px;
+   font-family: 'Montserrat';
+   font-weight: 300;
+   line-height: 150%;
+   margin-top: 24px;
+}
+
+.oftop__text-slider {
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 300;
+  color: rgba(69, 69, 69, 1);
+  margin-top: 28px;
+  line-height: 27px;
+
+}
+.pictures__slider-small {
+   margin-top: 114px;
+}
+.smal__2 {
+   margin-left: 32px;
+  }
+
+.swiper1920 {
+   max-width: 1920px;
+   height: 1160px;
+   margin: 0 auto;
+   display: block;
+   margin-bottom: 240px;
+}
+.swiper-wrapper {
+   max-width: 1920px;
+   height: 1080px;
+}
+
+ /*.itcss__wrapper {
+   position: relative;
+  }
+
+  .btn-wrapper {
+    
+     width: 336px;
+     height: 420px ;
+     position: absolute;
+     z-index: 10;
+     top: 526px;
+     right: 189px;
+  }
+.btn-next {
+   width: 336px;
+   height: 420px ; 
+   opacity: 0;
+}
+*/
+            .swiper1440 {display: none}
       
 
       .block1{display: flex;max-width: 1920px;margin: 0px auto;}

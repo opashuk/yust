@@ -507,25 +507,7 @@ class ItcSimpleSlider {
 
 document.addEventListener('DOMContentLoaded', () => {
   // инициализация слайдера
-  new ItcSimpleSlider('.itcss1441', {
-    loop: true,
-    autoplay: true,
-    interval: 5000,
-    swipe: true,
-  });
 
-  const slider1 = new ItcSimpleSlider('.itcss1441');
-  // назначим обработчик при нажатии на кнопку .btn-next
-  document.querySelector('.btn-next').onclick = () => {
-    // перейдём к следующему слайду
-    slider1.next();
-  }
-  new ItcSimpleSlider('.itcss1920', {
-    loop: true,
-    autoplay:true,
-    interval: 5000,
-    swipe: true,
-  });
  
   new ItcSimpleSlider('.itcss480', {
     loop: true,
@@ -541,9 +523,3 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-const slider2 = new ItcSimpleSlider('.itcss1920');
-// назначим обработчик при нажатии на кнопку .btn-next
-document.querySelector('.btn-next1').onclick = () => {
-  // перейдём к следующему слайду
-slider2.next();
-}
