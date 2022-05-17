@@ -136,7 +136,7 @@ body{
 .heder_inner_slider1 {
    display: flex;
    justify-content:space-between;
-   margin-top: 77px ;
+   margin-top: 76px ;
 }
 .text01 {
   font-size: 40px;
@@ -146,7 +146,7 @@ body{
 }
 .inner_main-text__slider {
   font-size: 48px;
-  line-height: 58px;
+  line-height: 120%;
   font-family: "Lato";
   font-weight: 700;
   color: rgba(69, 69, 69, 1);
@@ -162,15 +162,21 @@ body{
   font-family: "Lato";
   font-weight: 300;
   color: rgba(69, 69, 69, 1);
-  margin-top: 28px;
+  margin-top: 24px;
   line-height: 27px;
 
 }
 .pictures__slider-small {
    margin-top: 64px;
 }
+
+
+.nd-slide_margin-us {
+   margin-top: 92px;
+}
+
 .smal__2 {
-   margin-left: 36px;
+   margin-left: 32px;
   }
 
 .itcss1441 {

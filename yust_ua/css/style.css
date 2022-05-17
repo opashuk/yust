@@ -787,7 +787,6 @@ font-family: 'montserrat', light;font-weight: 300;margin-top: -20px;}
    display: flex;
    margin: 0 auto;
    max-width: 1920px;
-   height: 1080px;
    background-color: #FFFFFF;
    justify-content: space-between;
 
@@ -871,7 +870,7 @@ font-family: 'montserrat', light;font-weight: 300;margin-top: -20px;}
 
 .swiper1920 {
    max-width: 1920px;
-   height: 1080px;
+   height: 1160px;
    margin: 0 auto;
    display: block;
    margin-bottom: 240px;
