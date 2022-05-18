@@ -44,7 +44,7 @@ body{
 
 .block1{display: flex;max-width: 1441px;margin: 0px auto;}
 .logo{font-size: 40px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 24px 0 19px 102px;}
-.nav_header{display: flex;margin-left: 526px;}
+.nav_header{display: flex;margin-left: 526px;font-weight: 300;}
 .nav_inner{font-size: 20px;font-family: "Lato";margin: 38px 0 33px 40px;color: rgba(69, 69, 69, 1)}
 .language_choice{font-size: 20px;font-family: "Lato";font-weight: 300;color: rgba(69, 69, 69, 1);margin: 36px 0 33px 40px;}
 /*Page 1*/
