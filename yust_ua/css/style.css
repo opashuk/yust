@@ -601,6 +601,8 @@ font-family: 'montserrat', light;font-weight: 300;margin-top: -30px;}
       body{width: 100%;margin: 0px auto;}
       html{width: 100%;}
       /*header480*/
+      .swiper1440 {display: none}
+      .swiper1920 {display: none}
       .block1{display: flex; width: 480px;height: 104px;}
       .logo{font-size: 24px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 44px 0 0px 20px;}
       .nav_header{display: none;}
@@ -698,6 +700,8 @@ font-family: 'montserrat', light;font-weight: 300;margin-top: -30px;}
       body{width: 100%;margin: 0px auto;}
       html{width: 99%;max-width: 1920px;}
       /*header*/
+      .swiper1440 {display: none}
+      .swiper1920 {display: none}
       .block1{display: flex; width: 320px;height: 94px;}
       .logo{font-size: 24px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 41px 0 0px 20px;}
       .nav_header{display: none;}
@@ -892,25 +896,7 @@ font-family: 'montserrat', light;font-weight: 300;margin-top: -30px;}
    height: 1080px;
 }
 
- /*.itcss__wrapper {
-   position: relative;
-  }
 
-  .btn-wrapper {
-    
-     width: 336px;
-     height: 420px ;
-     position: absolute;
-     z-index: 10;
-     top: 526px;
-     right: 189px;
-  }
-.btn-next {
-   width: 336px;
-   height: 420px ; 
-   opacity: 0;
-}
-*/
             .swiper1440 {display: none}
       
 
