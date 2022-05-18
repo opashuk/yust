@@ -582,6 +582,8 @@ body{
    body{width: 100%;margin: 0px auto;}
    html{width: 100%;}
    /*header480*/
+   .swiper1440 {display: none}
+   .swiper1920 {display: none}
    .block1{display: flex; width: 480px;height: 104px;}
    .logo{font-size: 24px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 44px 0 0px 20px;}
    .nav_header{display: none;}
@@ -673,6 +675,8 @@ body{
    body{width: 100%;margin: 0px auto;}
    html{width: 99%;max-width: 1920px;}
    /*header*/
+   .swiper1440 {display: none}
+   .swiper1920 {display: none}
    .block1{display: flex; width: 320px;height: 94px;}
    .logo{font-size: 24px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 41px 0 0px 20px;}
    .nav_header{display: none;}
@@ -835,7 +839,6 @@ body{
      .smal__2 {
         margin-left: 20px;
        }
-     
      .swiper1440 {display: none}
 
       .block1{display: flex;max-width: 1920px;margin: 0px auto;}
