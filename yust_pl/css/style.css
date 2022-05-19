@@ -262,7 +262,7 @@ body{
    justify-content: space-between;
    margin: 0 auto;
    max-width: 1441px;
-
+   padding-top: 40px;
    background-color: #FFFFFF;
 
 }
@@ -434,6 +434,7 @@ body{
    width: 36px;
    height: 36px;
    margin-right: 10px;
+   margin-top: -2px;
 }
 /*Page 5*/
 .pg5ln1920{display: none;}
@@ -525,8 +526,8 @@ body{
    font-family: 'Lato';
    font-size: 18px;
    font-weight: 300;
-   margin-top: 20px;
-   line-height: 32px;
+   margin-top: 12px;
+   line-height: 28px;
    color: rgba(0, 0, 0, 0.53);
 }
 
@@ -781,7 +782,7 @@ body{
         justify-content: space-between;
         margin: 0 auto;
         max-width: 1920px;
-     
+         padding-top: 80px;
         background-color: #FFFFFF;
      }
      
@@ -908,7 +909,7 @@ body{
          line-height: 150%;color: black;width: 360px;}
       .text_p1media{display: none;font-size: 18px;font-family: "Lato";font-weight: 300;
          margin-top: 16px;line-height: 27px;color: black;width: 13%;}
-      .row_icons{width: 48px;height: 48px;margin-right: 0.5%;}
+      .row_icons{width: 48px;height: 48px;margin-right: 2%;margin-top: -5px;}
        /*UnderFoot 1920px*/
       .pg5ln1920{display: block;position: relative;left: -5%;}
       .block6{display: flex;max-width: 1920px;margin: 0px auto;height: 1009px;background-image: url(../../img/underfoot1920.png);}
@@ -930,7 +931,7 @@ body{
    
       .block5fot{display: flex;margin-left: 7%;margin-top: 80px;}
       .text_fot_line{font-family: 'Lato';font-size: 18px;font-weight: 300;margin-left: 70%;width: 247px;margin-top: 10px;}
-      .text_f1{font-family: 'Lato';font-size: 24px;font-weight: 300;margin-top: 20px;line-height: 32px;color: rgba(0, 0, 0, 0.53);}
+      .text_f1{font-family: 'Lato';font-size: 24px;font-weight: 300;margin-top: 15px;line-height: 32px;color: rgba(0, 0, 0, 0.53);}
    
       .callus{width: 225px;margin-left: 3.3%;}
       .email{width: 223px;margin-left: 0px;}
