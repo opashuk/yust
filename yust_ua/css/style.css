@@ -392,7 +392,7 @@ body{
    color: rgba(69, 69, 69, 1);
    text-align: center;
    margin: 0px auto;
-   margin-top: 20px;
+   margin-top: 80px;
    margin-bottom: 65px;
    max-width: 1441px;
 }
@@ -523,6 +523,8 @@ body{
 .block_footer{
    display: flex;
    margin: 0px auto;
+   margin-top: 25px;
+   padding-bottom: 35px;
 }
 
 .block5fot{
@@ -690,8 +692,8 @@ font-family: 'montserrat', light;font-weight: 300;margin-top: -30px;}
          .icons_foot_media{display:none}
          .icons_foot480{display: flex;margin-left: 142px;margin-top: 46px;}
          .icons_foot_media480{display: flex;width: 36px;height: 36px;margin-left: 24px;}
-         .foot_list_media{display: flex; margin-left: 33px;font-size: 12px;font-family: 'montserrat', light;font-weight: 300;color: rgba(172, 172, 172, 1);margin-top: 16px;}
-         .foot_end_media{display: flex;justify-content: center;margin-top: 16px;padding-bottom: 20px;}
+         .foot_list_media{display: flex; margin-left: 33px;font-size: 12px;font-family: 'montserrat', light;font-weight: 300;color: rgba(172, 172, 172, 1);margin-top: 10px;}
+         .foot_end_media{display: flex;justify-content: center;margin-top: 18px;padding-bottom: 20px;}
          /*BLOCK AT THE MOMENT*/
          .block6{display: none;}      .pg5ln1920{display: none;}
       }
@@ -712,7 +714,7 @@ font-family: 'montserrat', light;font-weight: 300;margin-top: -30px;}
       .page1img{width: 320px;height: 240px;background-image: url(../img/Page1Media.png);}
       .list_scrl{display: none;}.vert_home{display: none;}.pg1txt1{display: none;}.line1pg1{display: none;}
       .design_txt{display: none;}.pg1txt2{display: none;}.pg1txt3{display: none;}.vert_lft_txt{display: none;}
-      .pg1txt1media{display: flex;margin-left: 95px;padding-top: 34px;}
+      .pg1txt1media{display: flex;margin-left: 95px;padding-top: 42px;}
       .ukr_page1_txt{display: none;}
       /*Page 2 (Media)*/
       .block3{display: block; background-image: url(../img/Page2BGmedia.jpg); width: 320px; height: 558px;}
@@ -956,16 +958,16 @@ font-family: 'montserrat', light;font-weight: 300;margin-top: -30px;}
          .block5{display: block;margin-bottom: 121px;}
          .block5row1{display: flex;margin: 0px auto;max-width: 1920px;}
          .block5row2{display: flex;margin: 0px auto;max-width: 1920px;margin-top: 88px;}
-         .text_row1{margin-left: 6%;} .text_row2{margin-left: 76px;} 
-         .text_row3{margin-left:76px;} .text_row4{margin-left: 76px;}
-         .text_row5{margin-left: 6%;} .text_row6{margin-left: 76px;} 
-         .text_row7{margin-left: 76px;} .text_row8{margin-left: 76px;}
+         .text_row1{margin-left: 6%;} .text_row2{margin-left: 100px;} 
+         .text_row3{margin-left: 100px;} .text_row4{margin-left: 100px;}
+         .text_row5{margin-left: 6%;} .text_row6{margin-left: 100px;} 
+         .text_row7{margin-left: 100px;} .text_row8{margin-left: 100px;}
          .h3textrow1{font-family: 'montserrat', light;font-size: 40px;font-weight: 300;color: rgba(69, 69, 69, 1);}
          .text_p1{font-size: 20px;font-family: 'montserrat', extra light;font-weight: 200;margin-top: 16px;
             line-height: 27px;color: black;width: 360px;}
          .text_p1media{display: none;font-size: 18px;font-family: "Lato";font-weight: 300;
             margin-top: 16px;line-height: 27px;color: black;width: 13%;}
-         .row_icons{width: 48px;height: 48px;margin-right: 0.5%;}
+         .row_icons{width: 48px;height: 48px;margin-right: 2%;margin-top: -5px;}
        /*UnderFoot 1920px*/
        .pg5ln1920{display: block;position: relative;left: -5%;}
       .block6{display: flex;max-width: 1920px;margin: 0px auto;height: 1009px;background-image: url(../../img/underfoot1920.png);}
@@ -992,11 +994,11 @@ font-family: 'montserrat', light;font-weight: 300;margin-top: -30px;}
       .callus{width: 225px;margin-left: 3.3%;font-family: 'montserrat';font-weight: 400;}
       .email{width: 223px;margin-left: 0px;font-family: 'montserrat';font-weight: 300;}
       .fot_line{margin-top: 5px;margin-left: 73%;}
-      .logo2{font-size: 48px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);}
+      .logo2{font-size: 48px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin-left: 20px;}
       .foot_inner{position: relative;bottom: 16px;right: 8px;   color: rgba(0, 0, 0, 0.53);}
-      .h3textrowf{width: 225px;font-size: 32px;color: rgba(0, 0, 0, 0.53);margin-top: -20px;font-family: 'montserrat';font-weight: 400;}
+      .h3textrowf{width: 225px;font-size: 32px;color: rgba(0, 0, 0, 0.53);margin-top: -20px;font-family: 'montserrat';font-weight: 300;}
       .text_rowf2{margin-left: 0px;} 
       .text_rowf3{margin-left: 99px;}
-      .text_rowf3f{margin-left: 11%;position: relative;left: 6%;margin-top: 7px;}
+      .text_rowf3f{margin-left: 11%;position: relative;left: 5%;margin-top: 7px;}
       .row_icons_foot{width: 36px;height: 36px;margin-right: 10px;}
    }
