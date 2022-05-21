@@ -391,7 +391,7 @@ body{
    color: rgba(69, 69, 69, 1);
    text-align: center;
    margin: 0px auto;
-   margin-top: 10px;
+   margin-top: 80px;
    margin-bottom: 65px;
    max-width: 1441px;
 }
@@ -683,7 +683,7 @@ body{
       .block_footer{display: block;width: 480px;}
       .icons_foot{display:none}
       .icons_foot_media{display:none}
-      .icons_foot480{display: flex;margin-left: 142px;margin-top: 46px;}
+      .icons_foot480{display: flex;margin-left: 142px;margin-top: 10px;}
       .icons_foot_media480{display: flex;width: 36px;height: 36px;margin-left: 24px;}
       .foot_list_media{display: flex; margin-left: 39px;font-size: 14px;font-family: 'Lato';font-weight: 300;color: rgba(172, 172, 172, 1);margin-top: 6px;}
       .foot_end_media{display: flex;justify-content: center;margin-top: 16px;padding-bottom: 20px;}
@@ -904,7 +904,7 @@ body{
       .pg3text1{margin: 140px 0 0 92%;font-size: 20px;font-family: 'Lato';font-weight: 300;color: rgba(69, 69, 69, 1);}
       .pg3line{float: right;}
       .pg3line_media{display: none;}
-      .pg3text2{font-family: 'Lato';font-size: 20px;font-weight: 300;width: 580px;margin: 36px 0 0 180px;line-height: 27px;color: rgba(0, 0, 0, 1);}
+      .pg3text2{font-family: 'Lato';font-size: 20px;font-weight: 300;width: 580px;margin: 36px 0 0 180px;line-height: 150%;color: rgba(0, 0, 0, 1);}
       .pg3text3{margin: 24px 0 0 180px;font-family: 'Lato';font-size: 18px;font-weight: 300;}
       .page3phone{font-family: 'Lato';font-size: 20px;font-weight: 600;padding-right: 16px;color: rgba(69, 69, 69, 1);}
       .pg3text4{margin: 10px 0 0 180px;font-family: 'Lato';font-size: 18px;font-weight: 300;}
@@ -958,6 +958,6 @@ body{
       .h3textrowf{width: 225px;font-family: 'Lato';font-size: 36px;font-weight: 300;color: rgba(0, 0, 0, 0.53);margin-top: -20px;}
       .text_rowf2{margin-left: 0px;} 
       .text_rowf3{margin-left: 99px;}
-      .text_rowf3f{margin-left: 11%;position: relative;left: 6%;margin-top: 12px;}
+      .text_rowf3f{margin-left: 11%;position: relative;left: 10%;margin-top: 12px;}
       .row_icons_foot{width: 48px;height: 48px;margin-right: 10px;}
    }
