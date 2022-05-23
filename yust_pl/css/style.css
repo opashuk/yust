@@ -68,7 +68,7 @@ body{
 }
 .nav_header{
    display: flex;
-   margin-left: 576px;
+   margin-left: 591px;
 }
 .nav_inner{
    font-size: 20px;
@@ -522,7 +522,7 @@ body{
 
 .block5fot{
    display: flex;
-   margin-left: 50px;
+   margin-left: 102px;
    margin-top: 80px;
    padding-bottom: 25px;
 }
@@ -574,7 +574,7 @@ body{
 }
 .text_rowf2{margin-left: 0px;} 
 .text_rowf3{margin-left: 100px;}
-.text_rowf3f{margin-left: 100px;position: relative;left: 130px;margin-top: -20px;}
+.text_rowf3f{margin-left: 100px;position: relative;left: 60px;margin-top: -20px;}
 .row_icons_foot{
    width: 32px;
    height: 32px;
@@ -859,7 +859,7 @@ body{
 
       .block1{display: flex;max-width: 1920px;margin: 0px auto;}
       .logo{font-size: 40px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 42px 0 26px 5%;}
-      .nav_header{display: flex;margin-left: 48%;}
+      .nav_header{display: flex;margin-left: 51%;}
       .nav_inner{font-size: 24px;font-family: "Lato";margin: 54px 0 33px 40px;color: rgba(69, 69, 69, 1)}
       .language_choice{font-size: 24px;font-family: "Lato";font-weight: 300;color: rgba(69, 69, 69, 1);margin: 50px 0 33px 40px;}
       /*Page1 1920px*/
@@ -880,7 +880,7 @@ body{
       .pg1txt3{font-size: 90px;font-family: 'Lato';font-weight: 250;margin: 4px 0 0 46.5%;color: rgba(69, 69, 69, 1);word-spacing: 8px;}
       .boldtext{font-weight: 300;color: rgba(69, 69, 69, 1);}
       .design_txt{font-size: 160px;font-family: 'Lato';font-weight: 700;color: rgba(255, 255, 255, 0);-webkit-text-stroke: 1px rgba(69, 69, 69, 0.2);
-      position: relative;left: 65%;top: 70px;width: 350px;}
+      position: relative;left: 70%;top: 85px;width: 350px;}
       .pg1txt1media{display: none;}
       /*Page2 1920px*/
       .block3{display: flex;max-width: 1920px;width: 100%; margin: 0px auto;height: 681px;background-image: url(../../img/page2img1_1920px.jpg);}
@@ -943,7 +943,7 @@ body{
       /*Footer 1920px*/
       .block_footer{display: block;margin: 0px auto;max-width: 1920px;}
    
-      .block5fot{display: flex;margin-left: 7%;margin-top: 80px;}
+      .block5fot{display: flex;margin-left: 5%;margin-top: 80px;}
       .text_fot_line{font-family: 'Lato';font-size: 18px;font-weight: 300;margin-left: 70%;width: 247px;margin-top: 10px;}
       .text_f1{font-family: 'Lato';font-size: 24px;font-weight: 300;margin-top: 15px;line-height: 32px;color: rgba(0, 0, 0, 0.53);}
    
@@ -955,6 +955,6 @@ body{
       .h3textrowf{width: 225px;font-family: 'Lato';font-size: 40px;font-weight: 300;color: rgba(0, 0, 0, 0.53);margin-top: -20px;}
       .text_rowf2{margin-left: 0px;} 
       .text_rowf3{margin-left: 99px;}
-      .text_rowf3f{margin-left: 11%;position: relative;left: 11%;}
+      .text_rowf3f{margin-left: 13%;position: relative;left: 11%;}
       .row_icons_foot{width: 48px;height: 48px;margin-right: 10px;}
    }
