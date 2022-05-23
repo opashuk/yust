@@ -56,7 +56,7 @@ body{
 
 .block1{display: flex;max-width: 1441px;margin: 0px auto;}
 .logo{font-size: 40px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 24px 0 19px 102px;}
-.nav_header{display: flex;margin-left: 526px;font-weight: 300;}
+.nav_header{display: flex;margin-left: 550px;font-weight: 300;}
 .nav_inner{font-size: 20px;font-family: "Lato";margin: 38px 0 33px 40px;color: rgba(69, 69, 69, 1)}
 .language_choice{font-size: 20px;font-family: "Lato";font-weight: 300;color: rgba(69, 69, 69, 1);margin: 36px 0 33px 40px;}
 /*Page 1*/
@@ -264,12 +264,12 @@ body{
 /*Footer*/
 .block_footer{display: flex;margin: 0px auto;padding-bottom: 35px;}
 
-.block5fot{display: flex;margin-left: 50px;margin-top: 80px;}
+.block5fot{display: flex;margin-left: 102px;margin-top: 80px;}
 .text_fot_line{font-family: 'Lato';font-size: 18px;font-weight: 300;margin-left: 407px;width: 247px;margin-top: 5px;}
 .text_f1{font-family: 'Lato';font-size: 18px;font-weight: 300;margin-top: 10px;line-height: 32px;color: rgba(0, 0, 0, 0.53);}
 
-.callus{width: 161px;position: relative; left: 100px;}
-.email{width: 184px;position: relative; left: 50px;}
+.callus{width: 161px;}
+.email{width: 184px;}
 .fot_line{
    margin-top: 8px;
    margin-left: 438px;
@@ -661,7 +661,7 @@ body{
       /*Footer 1920px*/
       .block_footer{display: block;margin: 0px auto;max-width: 1920px;}
    
-      .block5fot{display: flex;margin-left: 4%;margin-top: 120px;}
+      .block5fot{display: flex;margin-left: 5%;margin-top: 120px;}
       .text_fot_line{font-family: 'Lato';font-size: 18px;font-weight: 300;margin-left: 65%;width: 247px;margin-top: 10px;}
       .text_f1{font-family: 'Lato';font-size: 24px;font-weight: 300;margin-top: 20px;line-height: 32px;color: rgba(0, 0, 0, 0.53);margin-left: 3px;}
       .callus{width: 194px;margin-left: 2.3%;}
@@ -678,5 +678,5 @@ body{
    @media (min-width: 1441px) and (max-width: 1919px){
       .design_txt{font-size: 160px;font-family: 'Lato';font-weight: 700;color: rgba(255, 255, 255, 0);-webkit-text-stroke: 1px rgba(69, 69, 69, 0.2);
          position: relative;left: 69.5%;top: 172px;width: 350px;}
-      .text_rowf3f{margin-left: 10%;position: relative;left: 6%;}
+      .text_rowf3f{margin-left: 12%;position: relative;left: 6%;}
    }

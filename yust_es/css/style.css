@@ -68,7 +68,7 @@ body{
 }
 .nav_header{
    display: flex;
-   margin-left: 526px;
+   margin-left: 521px;
 }
 .nav_inner{
    font-size: 20px;
@@ -528,7 +528,7 @@ body{
 
 .block5fot{
    display: flex;
-   margin-left: 50px;
+   margin-left: 102px;
    margin-top: 80px;
 }
 .text_fot_line{
@@ -579,7 +579,7 @@ body{
 }
 .text_rowf2{margin-left: 0px;} 
 .text_rowf3{margin-left: 100px;}
-.text_rowf3f{margin-left: 100px;position: relative;left: 130px;bottom: 32px;}
+.text_rowf3f{margin-left: 30px;position: relative;left: 130px;bottom: 32px;}
 .row_icons_foot{
    width: 36px;
    height: 36px;
@@ -863,7 +863,7 @@ body{
       /*Header 1920px*/
       .block1{display: flex;max-width: 1920px;margin: 0px auto;}
       .logo{font-size: 40px;font-family: "Lato";font-weight: 800;color: rgba(87, 90, 96, 1);margin: 42px 0 26px 5%;}
-      .nav_header{display: flex;margin-left: 44%;}
+      .nav_header{display: flex;margin-left: 46%;}
       .nav_inner{font-size: 24px;font-family: "Lato";margin: 54px 0 33px 40px;color: rgba(69, 69, 69, 1)}
       .language_choice{font-size: 24px;font-family: "Lato";font-weight: 300;color: rgba(69, 69, 69, 1);margin: 50px 0 33px 40px;}
       /*Page1 1920px*/
@@ -946,7 +946,7 @@ body{
       /*Footer 1920px*/
       .block_footer{display: block;margin: 0px auto;max-width: 1920px;}
    
-      .block5fot{display: flex;margin-left: 7%;margin-top: 80px;}
+      .block5fot{display: flex;margin-left: 5%;margin-top: 80px;}
       .text_fot_line{font-family: 'Lato';font-size: 18px;font-weight: 300;margin-left: 69%;width: 247px;margin-top: 9px;padding-bottom: 65px;}
       .text_f1{font-family: 'Lato';font-size: 24px;font-weight: 300;margin-top: 10px;line-height: 32px;color: rgba(0, 0, 0, 0.53);}
    
@@ -958,6 +958,6 @@ body{
       .h3textrowf{width: 225px;font-family: 'Lato';font-size: 36px;font-weight: 300;color: rgba(0, 0, 0, 0.53);margin-top: -20px;}
       .text_rowf2{margin-left: 0px;} 
       .text_rowf3{margin-left: 99px;}
-      .text_rowf3f{margin-left: 11%;position: relative;left: 10%;margin-top: 12px;}
+      .text_rowf3f{margin-left: 14%;position: relative;left: 10%;margin-top: 12px;}
       .row_icons_foot{width: 48px;height: 48px;margin-right: 10px;}
    }
