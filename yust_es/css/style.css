@@ -391,7 +391,7 @@ body{
    color: rgba(69, 69, 69, 1);
    text-align: center;
    margin: 0px auto;
-   margin-top: 10px;
+   margin-top: 80px;
    margin-bottom: 65px;
    max-width: 1441px;
 }
@@ -431,7 +431,7 @@ body{
 .text_p1{
    font-size: 18px;
    font-family: "Lato";
-   font-weight: 275;
+   font-weight: 300;
    margin-top: 16px;
    line-height: 27px;
    color: black;
