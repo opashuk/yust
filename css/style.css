@@ -253,6 +253,94 @@ a.bluelink{text-decoration: none;color: #666;}
 .bold_page3{
     padding-right: 2%;
 }
+/* slider */
+
+/* slider */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.swiper-wrapper {
+    margin-top:  5%;
+    margin-bottom: 2.5%;
+}
+.slider__item {
+    display: flex;
+    width: 100%;
+    margin-top: 1.8%;
+}
+.two_pictures {
+    display: flex;
+    width: 59.6%;
+}
+.inner_slider1 {
+    width: 40.4%;
+    margin-left: 7.5%;
+}
+.bg-img {
+    margin-left:2.25% ;
+    width: 15%;
+}
+.big1 {
+    margin-left: -5.25%;
+    z-index: -1;
+    width: 88%;
+}
+.bg-img__class {
+    width: 100%;
+}
+.bg-img__class1 {
+    width: 100%;
+  height: 100%;
+}
+.heder_inner_slider1{
+    display: flex;
+    width: 100%;
+}
+.text01 {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 4.1vw;
+line-height: 100%;
+color: rgba(69, 69, 69, 0.13);
+}
+.S_line__class {
+    width: 82%;
+    margin-left: 4.6%;
+}
+.inner_main-text__slider {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 4.1vw;
+line-height: 120%;
+color: #454545;
+margin-top: 5.5%;
+margin-bottom: 4.6%;
+}
+.oftop__text-slider {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 1.1vw;
+line-height: 150%;
+color: #454545;
+margin-bottom: 16%;
+}
+.pictures__slider-small {
+    display: flex;
+    width: 100%;
+
+}
+.smal__1 {
+width: 61%;
+}
+.smal__2 {
+margin-left: 2.9%;
+width: 33.1%;
+} 
+
 
 
 /*-----OUR SERVISES------------------------------------------------------------*/
